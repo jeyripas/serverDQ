@@ -265,7 +265,7 @@ exports.createOrder = async (req, res) => {
           quantity: 1,
         }
       ],
-      notification_url: "https://serverdq-production.up.railway.app/webhook",
+      notification_url: "https://serverdq-production.up.railway.app/api/v1/webhook",
       back_urls: {
         success: "https://shop.donquezo.com/",
       },

@@ -66,7 +66,7 @@ const formattedDate = new Intl.DateTimeFormat('es-PE', options).format(currentDa
                 por correo electronico</p>
             <p style="margin: 0; font-size: 1em; color:rgb(104, 104, 104) ">si el correo llego a la bandeja de SPAM no
                 olvides agregar el correo info@donquezo.com a tu lista de
-                remitentes segurso</p>
+                remitentes seguros</p>
         </div>
     </div>
     <img src="${linkImg}/public/logo.png" alt="" style="width: 30%; margin:auto;">
@@ -86,7 +86,7 @@ const formattedDate = new Intl.DateTimeFormat('es-PE', options).format(currentDa
                 style=" padding:0 0.5em; margin: 0; width: 30%; text-align: end; font-size: 1.3em; color:black; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                 WEB:</p>
             <a style="margin: 0; width: 50%; text-align: start; font-size: 1.3em; color: rgb(126, 126, 126); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
-                href="">https://tiendadonquezo.com/</a>
+                href="">https://tienda.donquezo.com/</a>
         </h5>
         <h5 style="margin: 0; width: 100%;  display: flex; gap: 1em; padding:1em ">
             <p

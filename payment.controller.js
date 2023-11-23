@@ -9,7 +9,7 @@ let totalPay = null
 
 let delivery = null
 
-const linkImg = "https://donquezo.com"
+const linkImg = "https://shop.donquezo.com"
 
 const transporter = nodemailer.createTransport({
   host: 'mx1.nubosfera.com',
@@ -265,9 +265,9 @@ exports.createOrder = async (req, res) => {
           quantity: 1,
         }
       ],
-      notification_url: "https://505f-2001-1388-61e3-e12-f996-f057-a131-4ed9.ngrok-free.app/webhook",
+      notification_url: "https://shop.donquezo.com/webhook",
       back_urls: {
-        success: "http://localhost:3000/success",
+        success: "https://shop.donquezo.com/success",
       },
     });
     temporaryFormData = formData;

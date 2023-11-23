@@ -267,7 +267,7 @@ exports.createOrder = async (req, res) => {
       ],
       notification_url: "https://shop.donquezo.com/webhook",
       back_urls: {
-        success: "https://shop.donquezo.com/success",
+        success: "https://shop.donquezo.com/",
       },
     });
     temporaryFormData = formData;

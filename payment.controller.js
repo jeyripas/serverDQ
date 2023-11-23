@@ -12,7 +12,7 @@ let delivery = null
 const linkImg = "http://localhost:3000"
 
 const transporter = nodemailer.createTransport({
-  host: 'smtpout.secureserver.net',
+  host: 'mx1.nubosfera.com',
   port: 465, // Puerto de SMTP
   secure: true,
   auth: {

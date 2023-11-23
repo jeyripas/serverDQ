@@ -1,4 +1,4 @@
-const mercadopage = require( "mercadopago")
+const mercadopago = require( "mercadopago")
 const nodemailer  = require("nodemailer")
 
 let temporaryFormData = null;
@@ -237,7 +237,7 @@ transporter.sendMail(mailOptions2, (error2, info2) => {
 
 
 exports.createOrder = async (req, res) => {
-  mercadopage.configure({
+  mercadopago.configure({
     access_token: process.env.ACCESS_TOKEN,
   });
   const listItems = req.body.itemsArray
@@ -250,7 +250,7 @@ exports.createOrder = async (req, res) => {
   
   
   try {
-    const result = await mercadopage.preferences.create({
+    const result = await mercadopago.preferences.create({
       items: [
         ...listItems.map(item => ({
           title: item.itemName,
@@ -308,7 +308,7 @@ exports.receiveWebhook = async (req, res) => {
   try {
     const payment = req.query;
     if (payment.type === "payment") {
-      const data = await mercadopage.payment.findById(payment["data.id"]);
+      const data = await mercadopago.payment.findById(payment["data.id"]);
       // console.log(data);
       sendConfirmationEmail(temporaryFormData, dataProducts,totalPay,delivery)
     }

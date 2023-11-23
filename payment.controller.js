@@ -9,7 +9,7 @@ let totalPay = null
 
 let delivery = null
 
-const linkImg = "http://localhost:3000"
+const linkImg = "https://donquezo.com"
 
 const transporter = nodemailer.createTransport({
   host: 'mx1.nubosfera.com',

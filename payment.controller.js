@@ -12,7 +12,7 @@ let delivery = null
 const linkImg = "https://shop.donquezo.com"
 
 const transporter = nodemailer.createTransport({
-  host: 'mx1.nubosfera.com',
+  host: 'smtp-relay.gmail.com',
   port: 465, // Puerto de SMTP
   secure: true,
   auth: {

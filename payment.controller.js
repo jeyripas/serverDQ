@@ -48,7 +48,7 @@ const formattedDate = new Intl.DateTimeFormat('es-PE', options).format(currentDa
   const emailBody = `
 <div
     style=" max-width: 600px; margin: 0 auto; padding:2em 1em; gap:4em">
-    <img src="${linkImg}/public/logo.png" alt="" style="width:50%; margin:auto;">
+    <td align="center"><img src="${linkImg}/public/logo.png" alt="" style="width:50%; margin:auto;"></td>
     <div style=" width:100%">
         <img src="${linkImg}/public/gracias1.png" alt="" style="width: 40% ;margin:auto;">
         <h2 style="text-align:center; font-size: 2.5em; padding: 0;  margin: 0 auto; color:rgb(104, 104, 104)">GRACIAS!</h2>
